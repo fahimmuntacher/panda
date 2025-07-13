@@ -41,6 +41,10 @@ body{
 
 
 /* button style end */
+header{
+    margin-bottom: 60px;
+}
+
 nav{
     display: flex;
     justify-content: space-between;
@@ -120,4 +124,50 @@ nav input{
 .banner img{
     height: 400px;
     width: 370px;
+}
+
+
+.category h1{
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 24px;
+}
+.catergories{
+    display: flex;
+    gap: 20px;
+}
+.ctgry-box{
+    height: 120px;
+    width: 450px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    border-radius: 15px;
+
+}
+
+.ctgry-box h1{
+    font-weight: 400;
+    font-size: 36px;
+    color: white;
+
+    padding-left: 30px;
+    padding-top: 30px;
+
+}
+.ctgry-box img{
+    height: 100px;
+    width: 100px;
+    margin-right: 45px;
+    
+}
+#ctg-box1{
+     background-image: linear-gradient(to bottom, #FF9C35 0%, #FFD019 100%);
+}
+#ctg-box2{
+    background-image: linear-gradient(to bottom, #FF589B 0% , #FF136F 100%);
+}
+#ctg-box3{
+    background-image: linear-gradient(to bottom, #4289FF 10%, #3F07F8 100%);
 }
