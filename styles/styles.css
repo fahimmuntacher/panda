@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+}
+
+body{
+    max-width: 1440px;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+}
+
+/* button style start */
+.banner-btn{
+    padding: 14px 20px;
+    width: 165px;
+    height: 55px;
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+    border: none;
+    border: 2px solid #FF589B;
+    border-radius: 16px;
+    background-color: #FF589B;
+    background-image: url(https://img.icons8.com/?size=50&id=11686&format=png);
+    background-repeat: no-repeat;
+    background-position: right 5px center;
+    padding-left: 12px  ;
+    background-size: 35px 35px;
+
+    cursor: pointer;
+}
+
+.banner-btn:hover{
+    background-color:rgba(255, 255, 255, 0.219);
+    border: 2px solid #FF589B;
+    color:#FF589B;
+}
+
+
+/* button style end */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+    margin-bottom: 60px;
+    position: static;
+}
+
+nav img{
+    height: 30px;
+    width: 160px;
+    cursor: pointer;
+}
+
+nav input{
+    width: 510px;
+    height: 60px;
+    padding: 20px; 
+    border: none;
+    border-radius: 50px;
+    background-color: #F1F1F1;
+    font-weight: 500;
+    font-size: 16px;
+    background-image: url(https://img.icons8.com/?size=50&id=132&format=png);
+    background-repeat: no-repeat;
+    background-position: right 20px center;
+
+    background-size: 35px 35px;
+}
+
+
+
+.menubar{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.menubar a{
+    text-decoration: none;
+    color: #707070;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.menubar a:hover{
+    color: rgba(0, 0, 255, 0.767);
+    font-weight: bold;
+}
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    background-color: #FEEAE9;
+    padding: 60px;
+    border-radius: 20px;
+}
+.banner-content{
+   margin-right: 50px;
+   padding-top: 50px;
+   
+}
+.banner-content h1{
+    font-weight: bold;
+    font-size: 56px;
+    margin-bottom: 20px;
+}
+.banner-content p{
+    font-weight: 500;
+    font-size: 18px;
+    width: 450px;
+    color: #4E4E4E;
+    padding-bottom: 20px;
+    margin-bottom: 8px;
+}
+.banner img{
+    height: 400px;
+    width: 370px;
+}
